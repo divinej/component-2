@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-dark-blue px-4 py-7 grid md:justify-center md:items-center font-body">
       <div className="max-w-xl grid md:grid-cols-2 font-normal">
-        <Image className="h-full rounded-t-xl md:rounded-t-none md:rounded-l-xl md:rounded-tl-xl" src={img}
+        <Image className="h-full w-full rounded-t-xl md:rounded-t-none md:rounded-l-xl md:rounded-tl-xl" src={img}
           alt=""
           sizes="(max-width: 760px) 100vw, 50vw)"
         />
